@@ -25,9 +25,10 @@ h1 {
 
 .usaflag {
     float: left;
+    width: 570px;
 }
 
-.titletext {
+.usatext {
     float: center;
     font-size: 35px;
     font-style: oblique;
@@ -43,6 +44,11 @@ h1 {
     color: darkred;
 }
 
-.h1 {
-    font-size: 60px;
+.brazilflag{
+    float: right;
+    width: 520px;
+}
+
+.braziltext {
+    font-size: 40px;
 }
