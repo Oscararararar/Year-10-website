@@ -7,7 +7,6 @@ body{
 }
 
 
-
 h1 {
     font-size: 140px;
     font-family: 'Times New Roman', Times, serif;
@@ -82,4 +81,24 @@ h1 {
 .japantext {
     font-size: 70px;
     float: center;
+}
+
+.brazil-box {
+    display: flex;
+    align-items: center;
+}
+
+.left-item {
+    flex: 0 0 45%;
+    margin-right: 10%; 
+}
+
+.right-item {
+    flex: 0 0 45%;
+    margin-right: 10%
+}
+
+.america-box {
+    display: flex;
+    align-items: left;
 }
