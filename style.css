@@ -30,11 +30,11 @@ h1 {
 
 .usatext {
     float: center;
-    font-size: 35px;
+    font-size: 50px;
     font-style: oblique;
 }
 
-.usatext2 {
+.indexparagraph {
     font-size: 20px;
     font-style: italic;
 }
@@ -44,11 +44,42 @@ h1 {
     color: darkred;
 }
 
-.brazilflag{
+.brazilflag {
     float: right;
-    width: 520px;
+    width: 540px;
 }
 
 .braziltext {
-    font-size: 40px;
+    font-size: 70px;
+    float: center;
+}
+
+.brazil {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.franceflag {
+    float: left;
+    width: 570px;
+}
+
+.francetext {
+    font-size: 70px;
+    float: center;
+}
+
+.france {
+    font-size: 30px;
+    color:blue
+}
+
+.japanflag {
+    float: right;
+    width: 580px;
+}
+
+.japantext {
+    font-size: 70px;
+    float: center;
 }
