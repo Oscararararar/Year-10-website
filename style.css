@@ -12,6 +12,22 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;   
 }
+
+.indexparagraph {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.left-item {
+    flex: 0 0 45%;
+    margin-right: 10%; 
+}
+
+.right-item {
+    flex: 0 0 45%;
+    margin-left: 10%
+}
+
 .countries {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -33,14 +49,14 @@ h1 {
     font-style: oblique;
 }
 
-.indexparagraph {
-    font-size: 20px;
-    font-style: italic;
-}
-
 .america {
     font-size: 30px;
     color: darkred;
+}
+
+.america-box {
+    display: flex;
+    align-items: left;
 }
 
 .brazilflag {
@@ -58,6 +74,11 @@ h1 {
     color: darkgreen;
 }
 
+.brazil-box {
+    display: flex;
+    align-items: center;
+}
+
 .franceflag {
     float: left;
     width: 570px;
@@ -73,6 +94,11 @@ h1 {
     color:blue
 }
 
+.france-box {
+    display: flex;
+    align-items: left;
+}
+
 .japanflag {
     float: right;
     width: 580px;
@@ -83,22 +109,5 @@ h1 {
     float: center;
 }
 
-.brazil-box {
-    display: flex;
-    align-items: center;
-}
 
-.left-item {
-    flex: 0 0 45%;
-    margin-right: 10%; 
-}
 
-.right-item {
-    flex: 0 0 45%;
-    margin-left: 10%
-}
-
-.america-box {
-    display: flex;
-    align-items: left;
-}
