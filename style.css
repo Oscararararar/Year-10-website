@@ -13,6 +13,11 @@ h1 {
     font-style: italic;   
 }
 
+.marquee {
+    font-size: 30px;
+    color: dimgray;
+}
+
 .indexparagraph {
     font-size: 20px;
     font-style: italic;
@@ -101,13 +106,44 @@ h1 {
 
 .japanflag {
     float: right;
-    width: 580px;
+    width: 600px;
 }
 
 .japantext {
     font-size: 70px;
     float: center;
 }
+
+.japan {
+    font-size: 30px;
+    color:rgb(255, 6, 6)
+}
+
+.japan-box {
+    display: flex;
+    align-items: center;
+}
+
+.nigeriaflag {
+    float: left;
+    width: 600px;
+}
+
+.nigeriatext {
+    font-size: 70px;
+    float: center;
+}
+
+.nigeria {
+    font-size: 30px;
+    color:rgb(10, 85, 3)
+}
+
+.nigeria-box {
+    display: flex;
+    align-items: left;
+}
+
 
 
 
