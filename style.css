@@ -13,6 +13,48 @@ h1 {
     font-style: italic;   
 }
 
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #585858;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    opacity: 0.5;
+    padding: 10px 25px;
+  }
+
+
 .marquee {
     font-size: 30px;
     color: dimgray;
@@ -43,11 +85,6 @@ h1 {
     float: left;
 }
 
-.usaflag {
-    float: left;
-    width: 570px;
-}
-
 .usatext {
     float: center;
     font-size: 50px;
@@ -62,11 +99,6 @@ h1 {
 .america-box {
     display: flex;
     align-items: left;
-}
-
-.brazilflag {
-    float: right;
-    width: 540px;
 }
 
 .braziltext {
@@ -84,11 +116,6 @@ h1 {
     align-items: center;
 }
 
-.franceflag {
-    float: left;
-    width: 570px;
-}
-
 .francetext {
     font-size: 70px;
     float: center;
@@ -102,11 +129,6 @@ h1 {
 .france-box {
     display: flex;
     align-items: left;
-}
-
-.japanflag {
-    float: right;
-    width: 600px;
 }
 
 .japantext {
@@ -124,11 +146,6 @@ h1 {
     align-items: center;
 }
 
-.nigeriaflag {
-    float: left;
-    width: 600px;
-}
-
 .nigeriatext {
     font-size: 70px;
     float: center;
@@ -144,6 +161,20 @@ h1 {
     align-items: left;
 }
 
+.newzealandtext {
+    font-size: 70px;
+    float: center;
+}
+
+.newzealand {
+    font-size: 30px;
+    color:rgb(0, 22, 70)
+}
+
+.newzealand-box {
+    display: flex;
+    align-items: left;
+}
 
 
 
