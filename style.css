@@ -161,22 +161,35 @@ h1 {
     align-items: left;
 }
 
-.newzealandtext {
+.new-zealandtext {
     font-size: 70px;
     float: center;
 }
 
-.newzealand {
+.new-zealand {
     font-size: 30px;
     color:rgb(0, 22, 70)
 }
 
-.newzealand-box {
+.new-zealand-box {
+    display: flex;
+    align-items: center;
+}
+
+.antarcticatext {
+    font-size: 70px;
+    float: center;
+}
+
+.antarctica {
+    font-size: 30px;
+    color:rgb(10, 85, 3)
+}
+
+.antarctica-box {
     display: flex;
     align-items: left;
 }
-
-
 
 
 
